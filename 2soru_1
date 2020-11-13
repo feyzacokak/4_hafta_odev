@@ -1,0 +1,6 @@
+demet=(1,1,1,2,2,3,3,"mustafa","mustafa",3.14,3.14)
+list=[]
+for i in demet:
+    if not i in list:
+        list.append(i)
+print(list)
