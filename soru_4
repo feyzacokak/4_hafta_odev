@@ -1,0 +1,10 @@
+list=[1,2,3,4,5,6,7,8,9,10]
+cift_list=[]
+tek_list=[]
+as_list=[cift_list,tek_list]
+for i in list:
+    if i %2==0:
+        cift_list.append(i)
+    else:
+        tek_list.append(i)
+print(as_list)
