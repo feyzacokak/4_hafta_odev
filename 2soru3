@@ -1,0 +1,4 @@
+sozluk={"mustafa bey":"çankaya","kerim bey":"etimesgut","ezgi hanım":"çankaya","oguz bey":"yüzüncüyıl"}
+for i in sozluk:
+    if sozluk[i]=="çankaya":
+        print(i)
