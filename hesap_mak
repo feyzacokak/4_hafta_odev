@@ -1,0 +1,15 @@
+x=int(input("lütfen bir sayı giriniz."))
+y=int(input("lütfen bir sayı giriniz."))
+z=input("operatör giriniz.")
+
+while z=="-" or z=="+" or z=="/" or z=="*":
+    if z=="-":
+        print("işlem sonucu:",x-y)
+    elif z=="+":
+        print("işlem sonucu:",x+y)
+    elif z=="*":
+        print("işlem sonucu:",x*y)
+    elif z=="/":
+        print("işlem sonucu:",x/y)
+    else:
+        print("lütfen geçerli bir operatör kullanın.")
