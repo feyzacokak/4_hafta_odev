@@ -1,0 +1,6 @@
+x=input("lütfen 4 haneli bir şifre giriniz.")
+while len(x)!=4:
+    print("lütfen 4 haneli bir şifre giriniz.")
+else:
+    print("yeni sifreniz:",x)
+
