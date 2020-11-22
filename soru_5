@@ -1,0 +1,12 @@
+x=[]
+y=[]
+for i in range (1,5):
+    a=input("isim:")
+    b=input("soyisim:")
+    c=input("takim:")
+            
+    if c==barcelona:
+            x=[a,b,c]
+            y.append(x)
+    
+print(y)
